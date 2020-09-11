@@ -93,7 +93,7 @@
 				<key>hotkey</key>
 				<integer>35</integer>
 				<key>hotmod</key>
-				<integer>1179648</integer>
+				<integer>262144</integer>
 				<key>hotstring</key>
 				<string>P</string>
 				<key>leftcursor</key>
@@ -132,7 +132,7 @@
 		<key>F947C6F9-569A-42EA-9AA0-90C04BAEDE40</key>
 		<dict>
 			<key>xpos</key>
-			<integer>285</integer>
+			<integer>290</integer>
 			<key>ypos</key>
 			<integer>430</integer>
 		</dict>
