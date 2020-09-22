@@ -157,7 +157,7 @@
 				<key>hotkey</key>
 				<integer>5</integer>
 				<key>hotmod</key>
-				<integer>1572864</integer>
+				<integer>262144</integer>
 				<key>hotstring</key>
 				<string>G</string>
 				<key>leftcursor</key>
@@ -372,6 +372,8 @@
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>

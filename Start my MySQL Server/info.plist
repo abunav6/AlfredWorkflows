@@ -74,16 +74,16 @@
 		<key>7477DD01-D8B0-4A69-9C07-663156962B00</key>
 		<dict>
 			<key>xpos</key>
-			<integer>560</integer>
+			<integer>320</integer>
 			<key>ypos</key>
-			<integer>205</integer>
+			<integer>240</integer>
 		</dict>
 		<key>80AD4D08-EDB7-4BCE-A62C-A63EC879481A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>800</integer>
+			<integer>560</integer>
 			<key>ypos</key>
-			<integer>215</integer>
+			<integer>240</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

@@ -118,23 +118,23 @@
 		<key>618744F3-27D7-4E76-8698-952650AB2A0E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>605</integer>
 			<key>ypos</key>
-			<integer>275</integer>
+			<integer>290</integer>
 		</dict>
 		<key>BDEEC84B-A38F-4586-BF95-C5135B2FE905</key>
 		<dict>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>405</integer>
 			<key>ypos</key>
-			<integer>275</integer>
+			<integer>290</integer>
 		</dict>
 		<key>D8642299-812B-48D2-ABAC-F5812D05B04B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>20</integer>
+			<integer>175</integer>
 			<key>ypos</key>
-			<integer>275</integer>
+			<integer>290</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

@@ -70,7 +70,7 @@
 				<key>escaping</key>
 				<integer>65</integer>
 				<key>script</key>
-				<string>cd Desktop &amp;&amp; python3 print.py {query} &amp;&amp; cd ~</string>
+				<string>cd .scripts &amp;&amp; python3 print.py {query} &amp;&amp; cd ~</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.terminalcommand</string>
@@ -120,7 +120,7 @@
 			<key>xpos</key>
 			<integer>280</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>270</integer>
 		</dict>
 		<key>9FFAF538-EE3A-48EF-B093-A10A13DB9724</key>
 		<dict>
@@ -132,7 +132,7 @@
 		<key>F947C6F9-569A-42EA-9AA0-90C04BAEDE40</key>
 		<dict>
 			<key>xpos</key>
-			<integer>290</integer>
+			<integer>280</integer>
 			<key>ypos</key>
 			<integer>430</integer>
 		</dict>

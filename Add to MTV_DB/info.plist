@@ -8,6 +8,19 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>0FC606E0-9A52-40FD-9795-CA6B146C9E14</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F7AB4595-3A87-42F2-A481-2287F78DA9A4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>62DC1038-44A3-4860-AEC7-ED9064CC40F7</key>
 		<array>
 			<dict>
@@ -76,6 +89,42 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>add movie</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Add "{query}" to the Movie database</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A3FF287E-54E4-4B86-83B2-AB37F1DEC96B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>script</key>
+				<string>cd ~/Projects/MTV_DB &amp;&amp; python3 from_alfred.py "m" "{query}" &amp;&amp; cd ~</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>FAF29842-0C7F-4D75-BB75-4F54830D1504</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -110,33 +159,12 @@
 				<key>escaping</key>
 				<integer>4</integer>
 				<key>script</key>
-				<string>cd Desktop/MTV_DB &amp;&amp; python3 from_alfred.py "m" "{query}" &amp;&amp; cd ~</string>
+				<string>cd ~/Projects/MTV_DB &amp;&amp; python3 from_alfred.py "t" "{query}" &amp;&amp; cd ~</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.terminalcommand</string>
 			<key>uid</key>
-			<string>FAF29842-0C7F-4D75-BB75-4F54830D1504</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>add movie</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Add "{query}" to the Movie database</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>A3FF287E-54E4-4B86-83B2-AB37F1DEC96B</string>
+			<string>AB7385C7-93FA-4CF3-A9B4-2AFA496A4C1E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -196,14 +224,35 @@
 			<key>config</key>
 			<dict>
 				<key>escaping</key>
-				<integer>4</integer>
+				<integer>0</integer>
 				<key>script</key>
-				<string>cd Desktop/MTV_DB &amp;&amp; python3 from_alfred.py "t" "{query}" &amp;&amp; cd ~</string>
+				<string>cd ~/Projects/MTV_DB &amp;&amp; source venv2/bin/activate &amp;&amp; python gui.py &amp;&amp; cd ~</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.terminalcommand</string>
 			<key>uid</key>
-			<string>AB7385C7-93FA-4CF3-A9B4-2AFA496A4C1E</string>
+			<string>F7AB4595-3A87-42F2-A481-2287F78DA9A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mtv</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Launches the MTV GUI</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>0FC606E0-9A52-40FD-9795-CA6B146C9E14</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -212,47 +261,61 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
+		<key>0FC606E0-9A52-40FD-9795-CA6B146C9E14</key>
+		<dict>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
 		<key>62DC1038-44A3-4860-AEC7-ED9064CC40F7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>400</integer>
+			<integer>130</integer>
 			<key>ypos</key>
-			<integer>490</integer>
+			<integer>475</integer>
 		</dict>
 		<key>A3FF287E-54E4-4B86-83B2-AB37F1DEC96B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>585</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>315</integer>
 		</dict>
 		<key>AB7385C7-93FA-4CF3-A9B4-2AFA496A4C1E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>865</integer>
+			<integer>595</integer>
 			<key>ypos</key>
-			<integer>490</integer>
+			<integer>475</integer>
 		</dict>
 		<key>C001B1C6-3C15-4906-808E-075C83798AF2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>395</integer>
+			<integer>125</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>315</integer>
 		</dict>
 		<key>E0FFE5C7-A687-45D2-8931-753FB19816F6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>585</integer>
+			<integer>315</integer>
 			<key>ypos</key>
-			<integer>490</integer>
+			<integer>475</integer>
+		</dict>
+		<key>F7AB4595-3A87-42F2-A481-2287F78DA9A4</key>
+		<dict>
+			<key>xpos</key>
+			<integer>595</integer>
+			<key>ypos</key>
+			<integer>650</integer>
 		</dict>
 		<key>FAF29842-0C7F-4D75-BB75-4F54830D1504</key>
 		<dict>
 			<key>xpos</key>
-			<integer>865</integer>
+			<integer>595</integer>
 			<key>ypos</key>
-			<integer>330</integer>
+			<integer>315</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

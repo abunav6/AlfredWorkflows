@@ -70,7 +70,7 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>mkdir -p ~/Desktop/MTV_DB/.backups/ &amp;&amp; mysqldump -u anubhavdinkar -p Watched &gt; ~/Desktop/MTV_DB/.backups/mtvDB.sql</string>
+				<string>mkdir -p ~/Projects/MTV_DB/.backups/ &amp;&amp; mysqldump -u anubhavdinkar -p Watched &gt; ~/Projects/MTV_DB/.backups/mtvDB.sql</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.terminalcommand</string>

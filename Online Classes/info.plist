@@ -191,7 +191,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://meet.google.com/qve-vmrh-cvp?authuser=0&amp;hs=179</string>
+				<string>https://meet.google.com/lookup/d5apasm6xu?authuser=0&amp;hs=179</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -318,7 +318,7 @@
 		<key>82DEB130-99D6-4579-8D59-BF848EF88521</key>
 		<dict>
 			<key>xpos</key>
-			<integer>190</integer>
+			<integer>180</integer>
 			<key>ypos</key>
 			<integer>650</integer>
 		</dict>
@@ -353,7 +353,7 @@
 		<key>FE5D83C5-A7F7-45DB-B9B9-BB963D9B0AFC</key>
 		<dict>
 			<key>xpos</key>
-			<integer>380</integer>
+			<integer>370</integer>
 			<key>ypos</key>
 			<integer>650</integer>
 		</dict>

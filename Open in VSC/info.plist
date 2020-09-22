@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>0291EF07-E284-48E9-95DA-A566468D13AD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3ED40011-D458-409B-AB9F-8179C8FF0ED8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3ED40011-D458-409B-AB9F-8179C8FF0ED8</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Visual Studio Code Folder</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  
+  tell application "Finder"
+    set pathList to (quoted form of POSIX path of (folder of the front window as alias))
+    set command to "clear; cd " &amp; pathList
+  end tell
+  
+  tell application "System Events"
+    -- some versions might identify as "iTerm2" instead of "iTerm"
+    set isRunning to (exists (processes where name is "iTerm")) or (exists (processes where name is "iTerm2"))
+  end tell
+  
+  tell application "iTerm"
+    activate
+    set hasNoWindows to ((count of windows) is 0)
+    if isRunning and hasNoWindows then
+      create window with default profile
+    end if
+    select first window
+    
+    tell the first window
+      if isRunning and hasNoWindows is false then
+        create tab with default profile
+      end if
+      tell current session to write text command
+    end tell
+  end tell
+
+  tell application "iTerm"
+    tell the current session of current window
+      write text "open -a 'Visual Studio Code' ./"
+    end tell
+  end tell
+  
+end alfred_script</string>
+				<key>cachescript</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>3ED40011-D458-409B-AB9F-8179C8FF0ED8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>9</integer>
+				<key>hotmod</key>
+				<integer>1572864</integer>
+				<key>hotstring</key>
+				<string>V</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>0291EF07-E284-48E9-95DA-A566468D13AD</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0291EF07-E284-48E9-95DA-A566468D13AD</key>
+		<dict>
+			<key>xpos</key>
+			<integer>260</integer>
+			<key>ypos</key>
+			<integer>315</integer>
+		</dict>
+		<key>3ED40011-D458-409B-AB9F-8179C8FF0ED8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>520</integer>
+			<key>ypos</key>
+			<integer>315</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

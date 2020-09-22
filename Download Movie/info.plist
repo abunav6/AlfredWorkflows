@@ -6,8 +6,6 @@
 	<string>com.abunav.moviedownloader</string>
 	<key>connections</key>
 	<dict>
-		<key>26DA2609-8A71-4F58-B9BF-DFD55318CC6D</key>
-		<array/>
 		<key>37BABF5E-88E7-42C1-A5C0-8687A486D3FA</key>
 		<array>
 			<dict>
@@ -35,7 +33,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>26DA2609-8A71-4F58-B9BF-DFD55318CC6D</string>
+				<string>8291DFF8-6686-40A3-9CB6-B1D7901E856E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -80,12 +78,12 @@
 				<key>escaping</key>
 				<integer>0</integer>
 				<key>script</key>
-				<string>movie "{query}"</string>
+				<string>cd ~/Projects/Movie\ Downloader\ CLI/ &amp;&amp; python get_movie.py "{query}"</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.terminalcommand</string>
 			<key>uid</key>
-			<string>26DA2609-8A71-4F58-B9BF-DFD55318CC6D</string>
+			<string>8291DFF8-6686-40A3-9CB6-B1D7901E856E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -146,17 +144,17 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>26DA2609-8A71-4F58-B9BF-DFD55318CC6D</key>
-		<dict>
-			<key>xpos</key>
-			<integer>830</integer>
-			<key>ypos</key>
-			<integer>530</integer>
-		</dict>
 		<key>37BABF5E-88E7-42C1-A5C0-8687A486D3FA</key>
 		<dict>
 			<key>xpos</key>
 			<integer>250</integer>
+			<key>ypos</key>
+			<integer>535</integer>
+		</dict>
+		<key>8291DFF8-6686-40A3-9CB6-B1D7901E856E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>830</integer>
 			<key>ypos</key>
 			<integer>535</integer>
 		</dict>
@@ -170,7 +168,7 @@
 		<key>F6258777-0EC1-433F-AEC8-2CCBD4919E22</key>
 		<dict>
 			<key>xpos</key>
-			<integer>830</integer>
+			<integer>825</integer>
 			<key>ypos</key>
 			<integer>360</integer>
 		</dict>
