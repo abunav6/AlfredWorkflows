@@ -147,30 +147,30 @@
 		<key>37BABF5E-88E7-42C1-A5C0-8687A486D3FA</key>
 		<dict>
 			<key>xpos</key>
-			<integer>250</integer>
+			<integer>165</integer>
 			<key>ypos</key>
-			<integer>535</integer>
+			<integer>380</integer>
 		</dict>
 		<key>8291DFF8-6686-40A3-9CB6-B1D7901E856E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>830</integer>
+			<integer>745</integer>
 			<key>ypos</key>
-			<integer>535</integer>
+			<integer>380</integer>
 		</dict>
 		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>490</integer>
+			<integer>405</integer>
 			<key>ypos</key>
-			<integer>535</integer>
+			<integer>380</integer>
 		</dict>
 		<key>F6258777-0EC1-433F-AEC8-2CCBD4919E22</key>
 		<dict>
 			<key>xpos</key>
-			<integer>825</integer>
+			<integer>740</integer>
 			<key>ypos</key>
-			<integer>360</integer>
+			<integer>205</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

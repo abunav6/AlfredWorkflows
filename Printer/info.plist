@@ -19,6 +19,8 @@
 				<false/>
 			</dict>
 		</array>
+		<key>9FFAF538-EE3A-48EF-B093-A10A13DB9724</key>
+		<array/>
 		<key>F947C6F9-569A-42EA-9AA0-90C04BAEDE40</key>
 		<array>
 			<dict>
@@ -46,6 +48,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>escaping</key>
+				<integer>65</integer>
+				<key>script</key>
+				<string>cd .scripts &amp;&amp; python3 print.py {query} &amp;&amp; cd ~</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>9FFAF538-EE3A-48EF-B093-A10A13DB9724</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -61,21 +78,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>4ADECA13-18B3-451A-A5F2-0E2FA67C648E</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>65</integer>
-				<key>script</key>
-				<string>cd .scripts &amp;&amp; python3 print.py {query} &amp;&amp; cd ~</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.terminalcommand</string>
-			<key>uid</key>
-			<string>9FFAF538-EE3A-48EF-B093-A10A13DB9724</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
