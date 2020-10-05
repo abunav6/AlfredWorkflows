@@ -90,7 +90,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://meet.google.com/cub-pewc-wto</string>
+				<string>https://meet.google.com/cub-pewc-wto?pli=1&amp;authuser=2</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -151,7 +151,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://meet.google.com/bhb-kwnk-crj</string>
+				<string>https://meet.google.com/bhb-kwnk-crj?pli=1&amp;authuser=2</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -210,7 +210,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://meet.google.com/yaa-usqc-yjs</string>
+				<string>http://meet.google.com/yaa-usqc-yjs?pli=1&amp;authuser=2</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
@@ -271,7 +271,7 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>http://meet.google.com/ooj-mqma-qcr</string>
+				<string>http://meet.google.com/ooj-mqma-qcr?pli=1&amp;authuser=2</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
