@@ -6,11 +6,11 @@
 	<string></string>
 	<key>connections</key>
 	<dict>
-		<key>6A0AB6AF-8D0D-4B16-8866-EAE6358F58DC</key>
+		<key>1E9AE85E-E9FF-46BA-8304-343D3F847122</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>83A42E54-9914-45E3-AB54-FFDA44F2A723</string>
+				<string>532EF46A-B8B1-4EA2-8F73-BD3B878398B1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -19,11 +19,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>83A42E54-9914-45E3-AB54-FFDA44F2A723</key>
+		<key>532EF46A-B8B1-4EA2-8F73-BD3B878398B1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>DEFF0B71-38F8-42F1-9DAF-B176AD15B843</string>
+				<string>C5AB3398-E247-4DAE-AA88-FAD630821439</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -32,11 +32,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>DEFF0B71-38F8-42F1-9DAF-B176AD15B843</key>
+		<key>C5AB3398-E247-4DAE-AA88-FAD630821439</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>29D11D27-7B17-4F6B-B23C-E8F6BA0EB0F8</string>
+				<string>83B67336-C40F-41BA-BA29-884233E7A465</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -49,11 +49,11 @@
 	<key>createdby</key>
 	<string></string>
 	<key>description</key>
-	<string></string>
+	<string>Type in the genre to get the top 20 recommendations</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Mount and Eject</string>
+	<string>Movie Recommendations</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -64,9 +64,7 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>query="{query}"
-
-diskutil mount $query</string>
+				<string>/usr/local/bin/python3 /Users/anubhavdinkar/.scripts/Movie\ Recommender/movie_recommend.py "{query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -77,7 +75,7 @@ diskutil mount $query</string>
 			<key>type</key>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>29D11D27-7B17-4F6B-B23C-E8F6BA0EB0F8</string>
+			<string>532EF46A-B8B1-4EA2-8F73-BD3B878398B1</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -85,20 +83,39 @@ diskutil mount $query</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
-				<integer>2</integer>
+				<integer>0</integer>
 				<key>keyword</key>
-				<string>mount</string>
+				<string>get</string>
 				<key>subtext</key>
-				<string></string>
+				<string>20 recommendations on "{query}" will be shown</string>
 				<key>text</key>
-				<string>Mount a Specific Volume</string>
+				<string>Get Recommendations based on your choice of Genre</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>6A0AB6AF-8D0D-4B16-8866-EAE6358F58DC</string>
+			<string>1E9AE85E-E9FF-46BA-8304-343D3F847122</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://www.imdb.com/title/{query}/</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>83B67336-C40F-41BA-BA29-884233E7A465</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -126,9 +143,9 @@ diskutil mount $query</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Wait...</string>
+				<string>Please wait...</string>
 				<key>script</key>
-				<string>foo=$(cat&lt;&lt;EOF /Users/anubhavdinkar/Projects/Mount-Volume/data.json) 
+				<string>foo=$(cat&lt;&lt;EOF /Users/anubhavdinkar/.scripts/Movie\ Recommender/data.json) 
 echo $foo</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
@@ -137,7 +154,7 @@ echo $foo</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Mount Volume</string>
+				<string>Getting 20 recommendations</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -146,73 +163,44 @@ echo $foo</string>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>DEFF0B71-38F8-42F1-9DAF-B176AD15B843</string>
+			<string>C5AB3398-E247-4DAE-AA88-FAD630821439</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>/usr/bin/python3 /Users/anubhavdinkar/Projects/Mount-Volume/main.py</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>5</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>83A42E54-9914-45E3-AB54-FFDA44F2A723</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
 	</array>
 	<key>readme</key>
-	<string>Alfred's Script Filter object is extremely powerful, and gives you control over the results displayed in Alfred.
-
-Alfred 3 now supports JSON, which is the recommended format. XML is also supported for legacy Alfred 2 workflows, and has been updated to include the new features.
-
-A new option now exists for Script Filters, "Alfred filters results". This allows you to return a whole list of results, let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
+	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>29D11D27-7B17-4F6B-B23C-E8F6BA0EB0F8</key>
+		<key>1E9AE85E-E9FF-46BA-8304-343D3F847122</key>
 		<dict>
 			<key>xpos</key>
-			<integer>700</integer>
+			<integer>175</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>315</integer>
 		</dict>
-		<key>6A0AB6AF-8D0D-4B16-8866-EAE6358F58DC</key>
+		<key>532EF46A-B8B1-4EA2-8F73-BD3B878398B1</key>
 		<dict>
 			<key>xpos</key>
-			<integer>140</integer>
+			<integer>415</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>315</integer>
 		</dict>
-		<key>83A42E54-9914-45E3-AB54-FFDA44F2A723</key>
+		<key>83B67336-C40F-41BA-BA29-884233E7A465</key>
 		<dict>
 			<key>xpos</key>
-			<integer>340</integer>
+			<integer>895</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>315</integer>
 		</dict>
-		<key>DEFF0B71-38F8-42F1-9DAF-B176AD15B843</key>
+		<key>C5AB3398-E247-4DAE-AA88-FAD630821439</key>
 		<dict>
 			<key>xpos</key>
-			<integer>515</integer>
+			<integer>650</integer>
 			<key>ypos</key>
-			<integer>265</integer>
+			<integer>315</integer>
 		</dict>
 	</dict>
-	<key>version</key>
-	<string>1.0</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>

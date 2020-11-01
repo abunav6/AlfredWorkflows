@@ -54,7 +54,7 @@
 			<key>config</key>
 			<dict>
 				<key>browser</key>
-				<string>org.mozilla.firefox</string>
+				<string></string>
 				<key>searcher</key>
 				<integer>1635218553</integer>
 			</dict>
@@ -69,7 +69,7 @@
 			<key>config</key>
 			<dict>
 				<key>browser</key>
-				<string>org.mozilla.firefox</string>
+				<string></string>
 				<key>searcher</key>
 				<integer>1635216751</integer>
 			</dict>
@@ -105,7 +105,7 @@
 			<key>config</key>
 			<dict>
 				<key>browser</key>
-				<string>org.mozilla.firefox</string>
+				<string></string>
 				<key>spaces</key>
 				<string>+</string>
 				<key>url</key>

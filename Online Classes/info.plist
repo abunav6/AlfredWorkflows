@@ -19,6 +19,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>595B852D-4B16-48AE-925D-BBE4CDD8731E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>FB8D596A-4C1D-403C-8B62-CFF1ADC1E41E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>82DEB130-99D6-4579-8D59-BF848EF88521</key>
 		<array>
 			<dict>
@@ -50,6 +63,45 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>42E4B9D9-89C8-435E-B960-25DDD7F21A48</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B29CC523-4BA5-480C-BF8F-750AD0A98EA9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BF171B46-1B67-4A4B-8FFC-2C2BEB55AAF5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DF0BD9D2-66FC-489A-B873-87B3CE7C415E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>77A3BA52-B046-4E3A-9220-BA90BA3B76F1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E87F7471-A1AC-4C1E-9652-20201528D12E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C9DC82FD-76E1-48D8-A7EE-5E9E1A562BBF</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -90,14 +142,35 @@
 				<key>spaces</key>
 				<string></string>
 				<key>url</key>
-				<string>https://meet.google.com/cub-pewc-wto?pli=1&amp;authuser=2</string>
+				<string>https://classroom.google.com/u/2/c/MTY3MjU4ODk5MTEy</string>
 				<key>utf8</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
-			<string>6721B1DC-7E08-4C40-815E-03D806AC1B76</string>
+			<string>77A3BA52-B046-4E3A-9220-BA90BA3B76F1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>bl4c</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Opens Google Classroom for Broadband and LTE</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>DF0BD9D2-66FC-489A-B873-87B3CE7C415E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -119,6 +192,25 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>FB81C667-1BAC-46F0-AF29-166E16CEAD89</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://meet.google.com/cub-pewc-wto?pli=1&amp;authuser=2</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>6721B1DC-7E08-4C40-815E-03D806AC1B76</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -168,18 +260,56 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>hpc</string>
+				<string>mrsc</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
-				<string>Opens the High Performance Computing class</string>
+				<string>Opens the Microwave and Radiating Systems Canvas</string>
 				<key>withspace</key>
 				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>A922214A-A112-4BCC-97BD-369F0C5D342D</string>
+			<string>B29CC523-4BA5-480C-BF8F-750AD0A98EA9</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://canvas.instructure.com/courses/2335151</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BF171B46-1B67-4A4B-8FFC-2C2BEB55AAF5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://classroom.google.com/u/2/c/MTUyODI3NDI2OTQz</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>C9DC82FD-76E1-48D8-A7EE-5E9E1A562BBF</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -199,6 +329,69 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>42E4B9D9-89C8-435E-B960-25DDD7F21A48</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>hpc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Opens the High Performance Computing class</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>A922214A-A112-4BCC-97BD-369F0C5D342D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>hpcc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Opens the High Performance Computing Google Class</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>E87F7471-A1AC-4C1E-9652-20201528D12E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>mmc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Opens the Multimedia Communication class</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>017A00B1-E3E2-4474-87D6-FEC1192172CC</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -227,27 +420,6 @@
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
-				<string>mmc</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Opens the Multimedia Communication class</string>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>017A00B1-E3E2-4474-87D6-FEC1192172CC</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
 				<string>iot</string>
 				<key>subtext</key>
 				<string></string>
@@ -260,6 +432,27 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>82DEB130-99D6-4579-8D59-BF848EF88521</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>iotc</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Opens the IoT Google Class</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>595B852D-4B16-48AE-925D-BBE4CDD8731E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -279,6 +472,25 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>FE5D83C5-A7F7-45DB-B9B9-BB963D9B0AFC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://classroom.google.com/u/2/c/MTUyMzU3MTE1NjEy</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>FB8D596A-4C1D-403C-8B62-CFF1ADC1E41E</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -308,12 +520,26 @@
 			<key>ypos</key>
 			<integer>345</integer>
 		</dict>
+		<key>595B852D-4B16-48AE-925D-BBE4CDD8731E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>565</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
 		<key>6721B1DC-7E08-4C40-815E-03D806AC1B76</key>
 		<dict>
 			<key>xpos</key>
 			<integer>370</integer>
 			<key>ypos</key>
 			<integer>75</integer>
+		</dict>
+		<key>77A3BA52-B046-4E3A-9220-BA90BA3B76F1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>70</integer>
 		</dict>
 		<key>82DEB130-99D6-4579-8D59-BF848EF88521</key>
 		<dict>
@@ -343,12 +569,54 @@
 			<key>ypos</key>
 			<integer>345</integer>
 		</dict>
+		<key>B29CC523-4BA5-480C-BF8F-750AD0A98EA9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>565</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>BF171B46-1B67-4A4B-8FFC-2C2BEB55AAF5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>210</integer>
+		</dict>
+		<key>C9DC82FD-76E1-48D8-A7EE-5E9E1A562BBF</key>
+		<dict>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>345</integer>
+		</dict>
+		<key>DF0BD9D2-66FC-489A-B873-87B3CE7C415E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>560</integer>
+			<key>ypos</key>
+			<integer>70</integer>
+		</dict>
+		<key>E87F7471-A1AC-4C1E-9652-20201528D12E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>565</integer>
+			<key>ypos</key>
+			<integer>345</integer>
+		</dict>
 		<key>FB81C667-1BAC-46F0-AF29-166E16CEAD89</key>
 		<dict>
 			<key>xpos</key>
 			<integer>170</integer>
 			<key>ypos</key>
 			<integer>75</integer>
+		</dict>
+		<key>FB8D596A-4C1D-403C-8B62-CFF1ADC1E41E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>760</integer>
+			<key>ypos</key>
+			<integer>650</integer>
 		</dict>
 		<key>FE5D83C5-A7F7-45DB-B9B9-BB963D9B0AFC</key>
 		<dict>

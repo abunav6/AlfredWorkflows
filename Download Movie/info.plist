@@ -10,6 +10,16 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>F6258777-0EC1-433F-AEC8-2CCBD4919E22</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>B11B132B-4A61-4C05-8F4F-2111F454E6C6</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -21,16 +31,6 @@
 		</array>
 		<key>B11B132B-4A61-4C05-8F4F-2111F454E6C6</key>
 		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F6258777-0EC1-433F-AEC8-2CCBD4919E22</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
 			<dict>
 				<key>destinationuid</key>
 				<string>8291DFF8-6686-40A3-9CB6-B1D7901E856E</string>
@@ -168,9 +168,9 @@
 		<key>F6258777-0EC1-433F-AEC8-2CCBD4919E22</key>
 		<dict>
 			<key>xpos</key>
-			<integer>740</integer>
+			<integer>405</integer>
 			<key>ypos</key>
-			<integer>205</integer>
+			<integer>190</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

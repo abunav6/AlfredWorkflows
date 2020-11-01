@@ -8,11 +8,11 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>0FC606E0-9A52-40FD-9795-CA6B146C9E14</key>
+		<key>279ACF20-8CCF-4296-8DF4-D97083455CC0</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>F7AB4595-3A87-42F2-A481-2287F78DA9A4</string>
+				<string>9DE0F955-FD3C-4C23-82C6-FF923CF9862D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -26,6 +26,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>E0FFE5C7-A687-45D2-8931-753FB19816F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9DE0F955-FD3C-4C23-82C6-FF923CF9862D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>32261AD1-E6BF-43F4-BAA3-3D26DCF19B10</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -223,36 +236,67 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>escaping</key>
+				<key>argumenttype</key>
 				<integer>0</integer>
-				<key>script</key>
-				<string>cd ~/Projects/MTV_DB &amp;&amp; source venv2/bin/activate &amp;&amp; python gui.py &amp;&amp; cd ~</string>
+				<key>keyword</key>
+				<string>add wlist</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Add "{query}" to your movie Watchlist</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.terminalcommand</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>F7AB4595-3A87-42F2-A481-2287F78DA9A4</string>
+			<string>9DE0F955-FD3C-4C23-82C6-FF923CF9862D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>keyword</key>
-				<string>mtv</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Launches the MTV GUI</string>
-				<key>withspace</key>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
 				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>13</integer>
+				<key>hotmod</key>
+				<integer>262144</integer>
+				<key>hotstring</key>
+				<string>W</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>0FC606E0-9A52-40FD-9795-CA6B146C9E14</string>
+			<string>279ACF20-8CCF-4296-8DF4-D97083455CC0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>cd ~/Projects/MTV_DB &amp;&amp; python3 from_alfred.py "w" "{query}" &amp;&amp; cd ~</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>32261AD1-E6BF-43F4-BAA3-3D26DCF19B10</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -261,61 +305,68 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>0FC606E0-9A52-40FD-9795-CA6B146C9E14</key>
+		<key>279ACF20-8CCF-4296-8DF4-D97083455CC0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>130</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>650</integer>
+			<integer>520</integer>
+		</dict>
+		<key>32261AD1-E6BF-43F4-BAA3-3D26DCF19B10</key>
+		<dict>
+			<key>xpos</key>
+			<integer>705</integer>
+			<key>ypos</key>
+			<integer>520</integer>
 		</dict>
 		<key>62DC1038-44A3-4860-AEC7-ED9064CC40F7</key>
 		<dict>
 			<key>xpos</key>
-			<integer>130</integer>
+			<integer>240</integer>
 			<key>ypos</key>
-			<integer>475</integer>
+			<integer>345</integer>
+		</dict>
+		<key>9DE0F955-FD3C-4C23-82C6-FF923CF9862D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>425</integer>
+			<key>ypos</key>
+			<integer>520</integer>
 		</dict>
 		<key>A3FF287E-54E4-4B86-83B2-AB37F1DEC96B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>315</integer>
+			<integer>425</integer>
 			<key>ypos</key>
-			<integer>315</integer>
+			<integer>185</integer>
 		</dict>
 		<key>AB7385C7-93FA-4CF3-A9B4-2AFA496A4C1E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>595</integer>
+			<integer>705</integer>
 			<key>ypos</key>
-			<integer>475</integer>
+			<integer>345</integer>
 		</dict>
 		<key>C001B1C6-3C15-4906-808E-075C83798AF2</key>
 		<dict>
 			<key>xpos</key>
-			<integer>125</integer>
+			<integer>235</integer>
 			<key>ypos</key>
-			<integer>315</integer>
+			<integer>185</integer>
 		</dict>
 		<key>E0FFE5C7-A687-45D2-8931-753FB19816F6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>315</integer>
+			<integer>425</integer>
 			<key>ypos</key>
-			<integer>475</integer>
-		</dict>
-		<key>F7AB4595-3A87-42F2-A481-2287F78DA9A4</key>
-		<dict>
-			<key>xpos</key>
-			<integer>595</integer>
-			<key>ypos</key>
-			<integer>650</integer>
+			<integer>345</integer>
 		</dict>
 		<key>FAF29842-0C7F-4D75-BB75-4F54830D1504</key>
 		<dict>
 			<key>xpos</key>
-			<integer>595</integer>
+			<integer>705</integer>
 			<key>ypos</key>
-			<integer>315</integer>
+			<integer>185</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
